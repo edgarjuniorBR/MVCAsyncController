@@ -4,6 +4,10 @@
 }
 
 <h2>Index</h2>
-<a href="/TesteAssincrono/Sincrono" class="Button">Text</a>&nbsp;
-<input type="button" value="Assíncrono" />
+@Html.ActionLink("Sync", "Sincrono") &nbsp;
+@Html.ActionLink("Async", "Assincrono")
+<br/>
+Inicio: @ViewBag.Inicio
+<br/>
+Fim: @ViewBag.Fim
 
